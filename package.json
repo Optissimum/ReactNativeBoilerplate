@@ -1,5 +1,5 @@
 {
-  "name": "ReactNativeBoilerplate",
+  "name": "Rollr",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
   "dependencies": {
     "react": "~15.4.0-rc.4",
     "react-native": "0.41.2",
+    "react-native-material-design": "^0.3.7",
     "react-navigation": "^1.0.0-beta.3",
     "react-redux": "^5.0.1",
     "redux": "^3.6.0",
@@ -29,5 +30,9 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/pcofilada/react-native-boilerplate.git",
+  "author": "Sebastian MacDonald <optissimum@gmail.com>",
+  "license": "MIT"
 }

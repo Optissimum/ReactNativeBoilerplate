@@ -1,9 +1,9 @@
-import { StackNavigator } from 'react-navigation';
+import { StackNavigator } from 'react-navigation'
 
-import Main from './components/Main';
+import Main from './components/Main'
 
 const BaseNavigation = StackNavigator({
   Main: { screen: Main },
-});
+})
 
-export default BaseNavigation;
+export default BaseNavigation

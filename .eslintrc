@@ -11,6 +11,24 @@
     "react"
   ],
   "rules": {
+    "semi": [2, "never"],
+    "comma-dangle": 0,
+    "max-len": 0,
+    "no-shadow": 0,
+    "arrow-body-style": 0,
+    "arrow-parens": 0,
+    "global-require": 0,
+    "no-unused-expressions": 0,
+    "no-confusing-arrow": 0,
+    "no-unused-vars": 0,
+    "no-constant-condition": 0,
+    "import/no-dynamic-require": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/prefer-default-export": 0,
+    "react/require-default-props": 0,
+    "react/forbid-prop-types": 0,
+    "react/no-unused-prop-types": 0,
+    "no-unused-vars-rest/no-unused-vars": ["error", {"ignoreDestructuredVarsWithRest": true}],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   }
 }
